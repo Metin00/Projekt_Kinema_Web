@@ -1,0 +1,120 @@
+.slidet{padding:10}
+.shigjetat{padding:0}
+.posterat {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer;}
+.w3-badge {height:13px;width:13px;padding:0}
+* {
+    box-sizing: border-box;
+}
+
+.sallat {
+    float: left;
+    width: 33%;
+    padding: 10px;
+	height:10%;
+}
+
+
+.sallat img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.sallat img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+#left{
+     float:left;
+}
+#center{
+	float:center;
+	
+}
+#right{
+	float:right;
+}
+#shkrimi{
+	font-size:200%;
+	text-align:center;
+}
+#logo{
+     float:right;
+	 font-size:500%;
+	 font-style:oblique;
+	 color:orange;
+}
+.bar {
+    overflow: hidden;
+    background-color: orange;
+    font-family: Arial;
+	width:100%;
+}
+
+.bar a {
+    float: left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:20%;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    width:269px;
+}
+
+.dropdown .dbutton {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+	width:269px;
+	text-align:center;    
+}
+
+.bar a:hover, .dropdown:hover .dbutton {
+    background-color: yellow;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 0px 0px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	width:269px;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	width:269px;
+	text-align:center;
+}
+
+
